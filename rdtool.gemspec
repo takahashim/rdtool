@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.files =
     Dir.glob("bin/rd2") +
     Dir.glob("lib/**/*.rb") +
+    Dir.glob("lib/**/dot.rd2rc") +
     Dir.glob("doc/**/*.rd*") +
     Dir.glob("doc/**/*.html") +
     Dir.glob("utils/rd-mode.el") +
